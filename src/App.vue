@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <FeedTheCat />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FeedTheCat from './components/FeedTheCat/Main.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FeedTheCat
   }
 }
 </script>
 
 <style>
+
+@font-face{
+  font-family: 'Exo20';
+  src: url('./assets/fonts/Exo20-Thin.ttf');
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  
 }
 </style>
